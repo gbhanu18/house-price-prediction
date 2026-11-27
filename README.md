@@ -43,7 +43,7 @@ Recommendations rank houses by a cross-validated "value gap" (model estimate min
 
 ## How to run
 1. Install: `pip install pandas numpy matplotlib seaborn scikit-learn xgboost joblib jupyter`
-2. Place the dataset at `PRCP-1020-HousePricePred/Data/data.csv`, in the same folder as the notebook.
+2. 2. Keep `data.csv` in the same folder as the notebook. The notebook's data-loading cell uses the path `PRCP-1020-HousePricePred/Data/data.csv`, so either create that folder structure or change the path in that cell to `"data.csv"`.
 3. Open `PRCP-1020-HousePricePred.ipynb` and choose **Kernel → Restart & Run All**.
 
 ## Files
